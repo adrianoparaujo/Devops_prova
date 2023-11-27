@@ -12,7 +12,7 @@ def historia():
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Max Solaris</title>
     <link rel="stylesheet" href="style.css">
-   <style>
+   <css/style>
 *{
     padding: 0;
     margin: 0;
@@ -311,7 +311,7 @@ ul li a{
     background-color: #005ea1;
 }
 
- </style>  
+ </css/style>  
 </head>
 <body>
     <div class="fundo">
