@@ -1,8 +1,9 @@
-from flask import Flask
+from flask import Flask, render_template
+import os
+
 app = Flask(__name__)
 
 @app.route('/')
-@app.route('/Home_page')
 def Home_Page():
     current_directory = os.path.dirname(os.path.abspath(__file__))
 
